@@ -1,0 +1,113 @@
+/*ability to access fonts using web url and @import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* reset margins and padding as default*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+/* sets image size defaults*/
+img {
+    width: 100%; 
+    height: auto;
+}
+
+.card-title,
+.card-text {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2F2F2;
+    line-height: 36px;
+    /* padding: 10px 18px; */
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.footer ul a {
+    font-size: 14px;
+}
+
+.footer__left {
+    color: #5f6368;
+    float: left;
+}
+
+.footer__center {
+    display: inline-block;
+    width: 65vw;
+    text-align: center;
+}
+
+.footer__right {
+    color: #5f6368;
+    float: right;
+}
+
+.footer__center--img {
+    width: 12px;
+}
+
+.footer__center--link {
+    color: #5f6368;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer__center--link:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0.5 rem;
+    opacity: 0.8;
+
+}
+
+a.image-link:hover {
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+.main__account--avatar {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-right: 20px;
+}
